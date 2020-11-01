@@ -1,0 +1,39 @@
+{
+    "workbench.colorTheme": "Gruvbox Material Dark",
+    "vscode-neovim.neovimPath": "/usr/bin/nvim",
+    "editor.fontFamily": "'Source Code Pro'",
+    "editor.minimap.enabled": false,
+    "window.menuBarVisibility": "toggle",
+    "editor.cursorStyle": "block",
+    "workbench.activityBar.visible": true,
+    "workbench.startupEditor": "newUntitledFile",
+    "liveServer.settings.fullReload": true,
+    "editor.lineNumbers": "relative", 
+	"vim.leader": "<space>",
+    "vim.useCtrlKeys": true,
+	"vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vscode-neovim.highlightGroups.highlights": {
+
+        "Directory": "vim",
+        "IncSearch": {
+            "backgroundColor": "theme.editor.findMatchBackground",
+            "borderColor": "theme.editor.findMatchBorder"
+        },
+        "Search": {
+            "backgroundColor": "theme.editor.findMatchHighlightBackground",
+            "borderColor": "theme.editor.findMatchHighlightBorder"
+        },
+        "Visual": {
+            "backgroundColor": "theme.editor.selectionBackground"
+        },
+        "Conceal": "vim",
+        "Substitute": "vim"
+    },
+	"vim.normalModeKeyBindingsNonRecursive": [
+		"before": ["<leader>", "j"],
+		"after": ["<leader>", "<leader>", "j"]
+	]
+}
+
+

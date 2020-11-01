@@ -1,0 +1,14 @@
+{
+    "editor.minimap.enabled": false,
+    "vscode-neovim.neovimExecutablePaths.darwin": "/usr/local/bin/nvim",
+    "sync.gist": "",
+    "editor.cursorStyle": "underline",
+    "workbench.colorTheme": "Gruvbox Material Dark",
+    "gruvboxMaterial.lightContrast": "soft",
+    "vscode-neovim.neovimInitVimPaths.darwin": "$HOME/.config/nvim/init.vim",
+    "vscode-neovim.neovimExecutablePaths.linux": "/usr/bin/nvim",
+    "vscode-neovim.neovimInitVimPaths.linux": "$HOME/.config/nvim/init.vim",
+    "clangd.path": "/home/mario/.config/VSCodium/user-data/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/10.0.0/clangd_10.0.0/bin/clangd",
+    "editor.fontFamily": "Hack,Menlo,'Courier New'",
+    "terminal.external.linuxExec": "st"
+}

@@ -1,0 +1,10 @@
+nitrogen --restore &
+deadd-notification-center &
+nm-applet &
+dwmblocks &
+#volumeicon &
+blueman-applet &
+udiskie -s &
+remaps &
+dunst &
+dropbox &
