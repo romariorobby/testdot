@@ -1,4 +1,7 @@
 if exists('g:vscode')
+	source $HOME/.config/nvim/plugconfig/polygot.vim
+endif
+if exists('g:vscode')
 	source $HOME/.config/nvim/vscode/setting.vim
 endif
 source $HOME/.config/nvim/general/settings.vim
@@ -11,7 +14,6 @@ source $HOME/.config/nvim/keys/documents.vim
 source $HOME/.config/nvim/themes/gruvboxaqs.vim
 	" Plug Configuration
 source $HOME/.config/nvim/plugconfig/coc.vim
-source $HOME/.config/nvim/plugconfig/polygot.vim
 source $HOME/.config/nvim/plugconfig/vimwiki.vim
 source $HOME/.config/nvim/plugconfig/hekoxinase.vim
 source $HOME/.config/nvim/plugconfig/nerdtree.vim

@@ -7,7 +7,7 @@ basepkgmac() { \
 	brew install --HEAD neovim #Development version
 	brew install dropbox
 	brew install iterm2
-	brew install stow
+#	brew install stow
 	brew install brave-browser
 	brew cask install monitorcontrol
 	brew install lf
@@ -16,15 +16,16 @@ basepkgmac() { \
 basepkgarch() { \
 	sudo pacman -S alacritty
 	sudo pacman -S stow
-	sudo pacman -S lf
-	sudo pacman -S brave-bin
 	sudo pacman -S fzf ripgrep
-	yay -S neovim-git
-	yay -S dropbox
+	yay -S lf
+	yay -S brave-bin
+	yay -S neovim-nightly
+#	yay -S dropbox
 
 }
+#just random
 basepkgubuntu() { \
-
+	sudo apt install alacritty
 }
 
 installbasepkg() { \
@@ -62,9 +63,11 @@ docmac() { \
 }
 docarch() { \
 	yay -S notion-app
-	yay -S obisidian-appimage
+	yay -S obsidian-appimage
 }
+# just random
 docubuntu() { \
+	sudo apt install notion-app
 }
 installdoc() { \
 	echo "Downloading Document and Notes Packages related..." 
@@ -85,6 +88,7 @@ multarch() { \
 	sudo chmod a+wr /opt/spotify/Apps -R
 }
 multubuntu() { \
+	sudo apt install spotify
 }
 intallmult() { \
 	echo "installing Multimedia packages..."
@@ -99,9 +103,10 @@ socmac() { \
 }
 socarch() { \
 	yay -S discord
-	yay -S betterdiscordctl-cli
+	yay -S betterdiscordcli-git
 }
 socubuntu() { \
+	sudo apt install discord
 }
 installsoc() { \
 	echo "Installing soydev social media package..."
