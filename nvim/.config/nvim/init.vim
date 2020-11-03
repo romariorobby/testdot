@@ -11,6 +11,7 @@ source $HOME/.config/nvim/keys/documents.vim
 source $HOME/.config/nvim/themes/gruvboxaqs.vim
 	" Plug Configuration
 source $HOME/.config/nvim/plugconfig/coc.vim
+source $HOME/.config/nvim/plugconfig/polygot.vim
 source $HOME/.config/nvim/plugconfig/vimwiki.vim
 source $HOME/.config/nvim/plugconfig/hekoxinase.vim
 source $HOME/.config/nvim/plugconfig/nerdtree.vim
